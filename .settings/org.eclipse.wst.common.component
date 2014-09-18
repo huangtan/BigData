@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mahout">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/db"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/movie"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/kpi"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/data"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/doc"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/lib"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/BipartRec"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/mahout"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/logistic"/>
+        <property name="context-root" value="mahout"/>
+        <property name="java-output-path" value="/mahout/build/classes"/>
+    </wb-module>
+</project-modules>
