@@ -3,10 +3,10 @@ package Kmedios;
 import java.util.ArrayList;
 
 public class DataPoint {
-    private double dimension[]; //Ñù±¾µãµÄÎ¬¶È
-    private String pointName; //Ñù±¾µãÃû×Ö
-    private Cluster cluster; //Àà´Ø
-    private double euDt;//Ñù±¾µãµ½ÖÊµãµÄ¾àÀë
+    private double dimension[]; //ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½
+    private String pointName; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private Cluster cluster; //ï¿½ï¿½ï¿½
+    private double euDt;//ï¿½ï¿½ãµ½ï¿½Êµï¿½Ä¾ï¿½ï¿½ï¿½
 
     public DataPoint(double dimension[], String pointName) {
         this.dimension = dimension;
@@ -64,7 +64,7 @@ public class DataPoint {
     public String getPointName() {
         return this.pointName;
     }
-    //Í¨¹ýÎ¬¶È»ñÈ¡Êý¾Ýµã
+    //Í¨ï¿½ï¿½Î¬ï¿½È»ï¿½È¡ï¿½ï¿½Ýµï¿½
     public  DataPoint getDatapointBydimen(double dimension[]){
     	DataPoint point =new DataPoint(this.dimension,this.pointName);
     	if(dimension==this.dimension){
@@ -73,4 +73,17 @@ public class DataPoint {
 		return null;
   
     }
+    
+   
+	public double getEuDt() {
+		return euDt;
+	}
+
+	public void setEuDt(double euDt) {
+		this.euDt = euDt;
+	}
+
+	public void setPointName(String pointName) {
+		this.pointName = pointName;
+	}
 }
