@@ -135,14 +135,14 @@ public class Test {
 
 		loadDegree();
 
-		System.out.println("1");
+		System.out.println("加载矩阵");
 		calcWeight();
-		System.out.println("2");
+		System.out.println("计算权重");
 		calcFinal();
-		System.out.println("3");
+		System.out.println("计算最后得分");
 		calcRL();
 
-		System.out.println("4");
+		System.out.println("计算排名");
 		int l, j;
 		appendFile("F:\\ItemRE.txt", "用户\t\t推荐列表\r\n");
 		for (l = 0; l < 17; l++) {
